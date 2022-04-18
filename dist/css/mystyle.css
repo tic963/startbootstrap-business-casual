@@ -1,0 +1,69 @@
+.site-heading-lower{
+    font-family: "American Typewriter";
+    font-style: oblique;
+}
+
+.cta {
+    background-color: rgba(198, 140, 79, 0.9);
+}
+#mainNav .navbar-brand {
+    color: rgba(198, 140, 79, 0.9);
+}
+
+#mainNav {
+    background-color: rgba(198, 140, 79, 0.9);
+}
+.section-heading-lower{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+
+/* The grid: Four equal imgcolumns that floats next to each other */
+.imgcolumn {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.imgcolumn img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.imgcolumn img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the imgcolumns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.imgcontainer {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
